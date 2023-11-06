@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+
+    <script src="code.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playpen+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body onLoad="onLoad()">
+    
+    <div class="page-select">
+        <div class="toggleTheme">
+            <button onClick="toggleTheme()">
+                <img src="images/moonIcon.png" alt="" id="sunIcon">
+                <img src="images/sunIcon.png" alt="" id="moonIcon">
+            </button>
+        </div>
+        <div class="half-select">
+                <form action="index.html">
+                    <button type="submit" class="select-button fadeDown">
+                        <div class="centered-text">
+                            <p class="select-button-text">Home</p>
+                        </div>
+                    </button>
+                </form><!--
+            --><form action="projects.html">
+                <button type="submit" class="select-button fadeDown" style="animation-delay: 0.5s;">
+                    <div class="centered-text">
+                        <p class="select-button-text">Projects</p>
+                    </div>
+                </button>
+            </form><!--
+            --><form action="news.html">
+                <button type="submit" class="select-button fadeDown" style="animation-delay: 1s;">
+                    <div class="centered-text">
+                        <p class="select-button-text">News</p>
+                    </div>
+                </button>
+            </form><!--
+            --><form action="stuff.html">
+                <button type="submit" class="select-button fadeDown" style="animation-delay: 1.5s;">
+                    <div class="centered-text">
+                        <p class="select-button-text">Stuff</p>
+                    </div>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="green-text">
+        <div class="fade-in-row">
+            <h1>Hi, I'm Dzhake</h1>
+        </div>
+        <div class="fade-in-row">
+            <h1>I'm trying to make games/mods</h1>
+        </div>
+        <div class="fade-in-row">
+            <h1>You can select page in top right (^◕.◕^)</h1>
+        </div>
+        <div class="fade-in-row">
+            <h1 style="display: inline;">Random fun fact: </h1><h1 id="randomText1" style="display: inline;">unrandomized text</h1>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
