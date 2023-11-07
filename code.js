@@ -10,7 +10,7 @@ var randomText1 = [
     "I remember names only of three game developers: Hempuli, Hamumu and Hevipelle",
     "You didn't restart this page 50 times to read all facts, right?",
     "//TODO: Write one more fact",
-    "DM me on discord if you have any facts suggestions :D",
+    "Join my discord server if you have any facts suggestions :D",
     "Apple is a vegetable, not a fruit",
     "One of these facts is a lie ༼ つ ◕_◕ ༽つ",
     "Celeste has over 2.2k mods",
